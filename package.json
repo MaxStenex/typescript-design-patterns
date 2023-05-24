@@ -1,0 +1,12 @@
+{
+  "name": "patterns-head-first",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc --build && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}

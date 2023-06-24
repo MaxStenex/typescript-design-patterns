@@ -5,6 +5,7 @@ import { factory } from "./factory";
 import { command } from "./command";
 import { adapter } from "./adapter";
 import { facade } from "./facade";
+import { templateMethod } from "./template-method";
 
 // strategy();
 // observer();
@@ -12,4 +13,5 @@ import { facade } from "./facade";
 // factory();
 // command();
 // adapter();
-facade();
+// facade();
+templateMethod();
